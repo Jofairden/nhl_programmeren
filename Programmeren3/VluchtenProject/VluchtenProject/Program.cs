@@ -75,19 +75,19 @@ namespace VluchtenProject
 	public class Program
 	{
 		// Run de code outside Main, 'recommended', tegenwoordig mijn gewoonte (vooral als je async programmeert)
-		static void Main(string[] args) => 
+		static void Main(string[] args) =>
 			new Program().Run(args);
 
 		// Assemly directory 'path', waar onze uitvoerende binary (.exe) zich bevindt
-		public static string AssemblyDirectory => 
+		public static string AssemblyDirectory =>
 			Path.GetDirectoryName(Uri.UnescapeDataString(new UriBuilder(Assembly.GetEntryAssembly().CodeBase).Path));
 
 		// Lijsten met objecten
-		public List<Vliegtuig> vliegtuigen = 
+		public List<Vliegtuig> vliegtuigen =
 			new List<Vliegtuig>(); // Alle vliegtuigen 'callSign'
-		public List<Maatschappij> maatschappijen = 
+		public List<Maatschappij> maatschappijen =
 			new List<Maatschappij>(); // Alle maatschappijen
-		public List<Luchthaven> luchthavens = 
+		public List<Luchthaven> luchthavens =
 			new List<Luchthaven>(); // Alle luchthavens
 		public List<Vlucht> vluchten =
 			new List<Vlucht>(); // Alle vluchten
@@ -104,10 +104,10 @@ namespace VluchtenProject
 					Path.Combine(AssemblyDirectory, "vluchtgegevens.txt"))
 					.Skip(2)// Skip eerste 2 regels, header en === separator
 					.Where(x => x.All(y => !char.Equals(y, '='))); // Skip separators
-			// Omdat we later separators skippen, zou je ook eerst .Skip(1) kunnen callen
+																   // Omdat we later separators skippen, zou je ook eerst .Skip(1) kunnen callen
 
 			// Maak een nieuwe lijst van IEnumerable<String> aan, dus eigenlijk een lijst van vlucht gegevens
-			List<IEnumerable<string>> splitData = 
+			List<IEnumerable<string>> splitData =
 				new List<IEnumerable<string>>();
 			// Voor alle vluchten, splitten we de content op de comma, en verwijderen we tabs (\t), dan voegen we de inhoud toe aan de list
 			fileData
@@ -142,8 +142,8 @@ namespace VluchtenProject
 				.ForEach(data =>
 					vliegtuigen
 						.Add(new Vliegtuig(
-							data.CallSign, 
-							data.Model, 
+							data.CallSign,
+							data.Model,
 							data.Luchtvaartmaatschappij,
 							data.Owner)));
 
@@ -167,13 +167,13 @@ namespace VluchtenProject
 						string afkorting =
 							new string(splitdata[0] // pak de afkorting, bv: (DAL) van Delta Air Lines
 								.Where(c => // Waar character c =>
-									!new[] {'(', ')'} // Nieuwe array van characters: '(' en ')'
+									!new[] { '(', ')' } // Nieuwe array van characters: '(' en ')'
 										.Contains(c)) // Waar de array niet het huidige character bevat
 								.ToArray()); // We filteren als het ware de '(' en ')' van de afkorting weg.
-						// Je zou ook met substring kunnen doen
+											 // Je zou ook met substring kunnen doen
 						string naam =
 							string.Join(" ", splitdata.Skip(1)); // De naam is de rest van de split, behalve de eerste want dat is de afkorting
-						// Voeg object toe!
+																 // Voeg object toe!
 						maatschappijen.Add(new Maatschappij(naam, afkorting));
 					}
 				});
@@ -201,7 +201,7 @@ namespace VluchtenProject
 						string afkorting =
 							new string(splitdata[0]
 								.Where(c =>
-									!new[] {'(', ')'}
+									!new[] { '(', ')' }
 										.Contains(c))
 								.ToArray());
 
@@ -238,7 +238,7 @@ namespace VluchtenProject
 				// Voeg de nieuwe vlucht toe aan de vluchten van luchthaven A en luchthaven B (van / naar)
 				// Weer gebruik maken van de huidige list
 				luchthavens
-					.Where(x => new[] {data.Van,data.Bestemming}.Contains(x.ToString()))
+					.Where(x => new[] { data.Van, data.Bestemming }.Contains(x.ToString()))
 					.ToList()
 					.ForEach(x => x.Vluchten.Add(vlucht));
 
@@ -268,13 +268,13 @@ namespace VluchtenProject
 
 			// Loop de vluchten, loop daarna alle uitvoerders van de vlucht
 			foreach (Vlucht vlucht in alleVluchten)
-			foreach (Uitvoerder uitvoerder in vlucht.Uitvoerders)
-			{
-				// write de gegevens van de uitvoerder
-				Console.WriteLine(
-					$"{uitvoerder.Vlucht.Vertrek,spacing:HH:mm}{uitvoerder.Vlucht.Van.Naam,spacing}{uitvoerder.VluchtNr,spacing}" +
-					$"{uitvoerder.Maatschappij.Naam,spacing}{uitvoerder.Vlucht.Status,spacing}{"Details ->",spacing}");
-			}
+				foreach (Uitvoerder uitvoerder in vlucht.Uitvoerders)
+				{
+					// write de gegevens van de uitvoerder
+					Console.WriteLine(
+						$"{uitvoerder.Vlucht.Vertrek,spacing:HH:mm}{uitvoerder.Vlucht.Van.Naam,spacing}{uitvoerder.VluchtNr,spacing}" +
+						$"{uitvoerder.Maatschappij.Naam,spacing}{uitvoerder.Vlucht.Status,spacing}{"Details ->",spacing}");
+				}
 
 			// Plaats hier een breakpoint als je alle objecten e.d. goed wilt bestuderen
 			Console.ReadLine();
