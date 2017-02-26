@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespace_bank_opdracht" kind="namespace" language="C#">
+    <compoundname>BankOpdracht</compoundname>
+    <innerclass refid="class_bank_opdracht_1_1_bank" prot="public">BankOpdracht::Bank</innerclass>
+    <innerclass refid="class_bank_opdracht_1_1_program" prot="public">BankOpdracht::Program</innerclass>
+    <innerclass refid="class_bank_opdracht_1_1_rekening" prot="public">BankOpdracht::Rekening</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Joris/Documents/Visual Studio 2013/Projects/Prg3OpdrachtenStudent/BankOpdracht/Bank.cs" line="8" column="1"/>
+  </compounddef>
+</doxygen>

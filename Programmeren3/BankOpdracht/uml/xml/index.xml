@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="class_bank_opdracht_1_1_bank" kind="class"><name>BankOpdracht::Bank</name>
+    <member refid="class_bank_opdracht_1_1_bank_1abeddbbefbd772fb3164b5e89f8794d9d" kind="variable"><name>naam</name></member>
+    <member refid="class_bank_opdracht_1_1_bank_1af0fddd21e8b04bc4a9e06a34f28f374e" kind="variable"><name>rekeningen</name></member>
+    <member refid="class_bank_opdracht_1_1_bank_1a799e93dc64d4afa713ac8589be230c29" kind="property"><name>Naam</name></member>
+    <member refid="class_bank_opdracht_1_1_bank_1a4cebee6300792e89bd07e721cd156ead" kind="function"><name>Bank</name></member>
+    <member refid="class_bank_opdracht_1_1_bank_1a7a8205e7186a2c5b8ad972312c784e71" kind="function"><name>OpenRekening</name></member>
+    <member refid="class_bank_opdracht_1_1_bank_1aef66a70db61abdc42e89874d168e718d" kind="function"><name>OpenRekening</name></member>
+    <member refid="class_bank_opdracht_1_1_bank_1a7441f808a77aab91370b8176f5eddea0" kind="function"><name>OpenRekening</name></member>
+    <member refid="class_bank_opdracht_1_1_bank_1aa4506af66c7a858ed6fae1f469b0b664" kind="function"><name>ZoekRekening</name></member>
+    <member refid="class_bank_opdracht_1_1_bank_1abfe6a8ac05cfdf0bb807d2fdece5c3dd" kind="function"><name>VerwijderRekening</name></member>
+    <member refid="class_bank_opdracht_1_1_bank_1a8cf8ee42f63486441fc146288e703d6f" kind="function"><name>RenteUitkeren</name></member>
+    <member refid="class_bank_opdracht_1_1_bank_1a1fac2ccc109fcfe3370ca25d82de26c5" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_bank_opdracht_1_1_program" kind="class"><name>BankOpdracht::Program</name>
+    <member refid="class_bank_opdracht_1_1_program_1af9670d37f627f93ed3b81256969b509f" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="class_bank_opdracht_1_1_rekening" kind="class"><name>BankOpdracht::Rekening</name>
+    <member refid="class_bank_opdracht_1_1_rekening_1ac33a6f1e6dc19ca1f20fee5eff67c04e" kind="variable"><name>rekeningNummer</name></member>
+    <member refid="class_bank_opdracht_1_1_rekening_1a620f76f1b35904dc5817e7f50e6adca2" kind="variable"><name>saldo</name></member>
+    <member refid="class_bank_opdracht_1_1_rekening_1af9e55a51fff7694428268817f6da741c" kind="variable"><name>maxRood</name></member>
+    <member refid="class_bank_opdracht_1_1_rekening_1a46a0c35c3f66ec2e464c6d42144316a1" kind="variable"><name>voornaam</name></member>
+    <member refid="class_bank_opdracht_1_1_rekening_1aa326f1b27e6c668f596501bda80fd754" kind="variable"><name>achternaam</name></member>
+    <member refid="class_bank_opdracht_1_1_rekening_1ab86ebaaafccec0960c3ed0e0dad3c290" kind="variable"><name>huisnr</name></member>
+    <member refid="class_bank_opdracht_1_1_rekening_1a9e84748a3b29a0043f6fb9d8ee02f6bd" kind="variable"><name>postcode</name></member>
+    <member refid="class_bank_opdracht_1_1_rekening_1a42ec5a00c2852addd3fdd032aa87894f" kind="property"><name>Nr</name></member>
+    <member refid="class_bank_opdracht_1_1_rekening_1a43874d899a852457fc51c27cd19c4202" kind="property"><name>Saldo</name></member>
+    <member refid="class_bank_opdracht_1_1_rekening_1aab0cc00ab9afb9f12a57dd7082524532" kind="function"><name>Rekening</name></member>
+    <member refid="class_bank_opdracht_1_1_rekening_1a0ad4ef63c9c924546cbb015d818fa7db" kind="function"><name>Rekening</name></member>
+    <member refid="class_bank_opdracht_1_1_rekening_1a14120e7bc80b8b7fd24bd08d6ca6aaaf" kind="function"><name>GeldStorten</name></member>
+    <member refid="class_bank_opdracht_1_1_rekening_1ac944d2aec39dce4415b5355df790f451" kind="function"><name>GeldOpnemen</name></member>
+    <member refid="class_bank_opdracht_1_1_rekening_1ac27bba2f990eb475836951b210c40e8b" kind="function"><name>GeldOvermaken</name></member>
+    <member refid="class_bank_opdracht_1_1_rekening_1a092f8ca67a4c9a14ebc333b6e4caa6ab" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="namespace_bank_opdracht" kind="namespace"><name>BankOpdracht</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="_bank_8cs" kind="file"><name>Bank.cs</name>
+  </compound>
+  <compound refid="_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="_rekening_8cs" kind="file"><name>Rekening.cs</name>
+  </compound>
+  <compound refid="dir_0e47a0ab92fcae0f8b335631f1faf141" kind="dir"><name>C:/Users/Joris/Documents/Visual Studio 2013/Projects/Prg3OpdrachtenStudent/BankOpdracht</name>
+  </compound>
+  <compound refid="dir_ddf67c34d772f924a84a931916537f35" kind="dir"><name>C:/Users/Joris/Documents</name>
+  </compound>
+  <compound refid="dir_01795891a61526f51d1b8887c9a0ccd1" kind="dir"><name>C:/Users/Joris</name>
+  </compound>
+  <compound refid="dir_50a28386a8ad0f0aad21cfc2bd73d9bd" kind="dir"><name>C:/Users/Joris/Documents/Visual Studio 2013/Projects/Prg3OpdrachtenStudent</name>
+  </compound>
+  <compound refid="dir_d737641b4567f3a60c09916f5da29856" kind="dir"><name>C:/Users/Joris/Documents/Visual Studio 2013/Projects</name>
+  </compound>
+  <compound refid="dir_d522931ffa1371640980b621734a4381" kind="dir"><name>C:/Users</name>
+  </compound>
+  <compound refid="dir_93396bf653ee2142c1e5746d18c663cc" kind="dir"><name>C:/Users/Joris/Documents/Visual Studio 2013</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,11 @@
+﻿VluchtNr,	Luchtvaartmaatschappij,		Van,			Bestemming,		Route,		Vertrek,		Status,		Optijd,	  Model,				CallSign, Owner
+=================================================================================================================================================================================================================================
+HV 5753,	(TR) Transavia, 		(LWD) Leeuwarden Int,	(RAK) Marrakech,	,		18/11/2014 6:48 AM,	Onderweg,	,	  Boeing 737-800 (winglets) Passenger,	KL4124,	  KLM			
+KL 2625,	(KL) KLM,			(LWD) Leeuwarden Int,	(RAK) Marrakech,	,		18/11/2014 6:48 AM,	Onderweg,	,	  Boeing 737-800 (winglets) Passenger,	KL4124,   KLM
+=================================================================================================================================================================================================================================
+HV 669,		(TR) Transavia, 		(LWC) Leeuwarden City,	(ACE) Lanzarote, 	,		18/11/2014 6:31 AM,	Onderweg,	Op tijd,  Boeing 727-300 (winglets) Passenger, 	TV2322,	  Transavia
+=================================================================================================================================================================================================================================
+KL 1721, 	(KL) KLM, 			(LWC) Leeuwarden City, 	(BRU) Brussels,		,		18/11/2014 6:45 AM,	Geland,		Te Laat,  Fokker 70,				KL3231,	  KLM					
+DL 9529,	(DAL) Delta Air Lines, 		(LWS) Leeuwarden City,	(BRU) Brussels, 	,		18/11/2014 6:45 AM,	Geland,		Te Laat,  Fokker 70,				KL3231,	  KLM
+KQ 1721, 	(KA) Kenya Airways,		(LWS) Leeuwarden City,	(BRU) Brussels, 	,		18/11/2014 6:45 AM,	Geland,		Te Laat,  Fokker 70,				KL3231,	  KLM
+=================================================================================================================================================================================================================================

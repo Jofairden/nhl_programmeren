@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_0e47a0ab92fcae0f8b335631f1faf141" kind="dir">
+    <compoundname>C:/Users/Joris/Documents/Visual Studio 2013/Projects/Prg3OpdrachtenStudent/BankOpdracht</compoundname>
+    <innerfile refid="_bank_8cs">Bank.cs</innerfile>
+    <innerfile refid="_program_8cs">Program.cs</innerfile>
+    <innerfile refid="_rekening_8cs">Rekening.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Joris/Documents/Visual Studio 2013/Projects/Prg3OpdrachtenStudent/BankOpdracht/"/>
+  </compounddef>
+</doxygen>

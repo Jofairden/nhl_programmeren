@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="class_bank_opdracht_1_1_bank" kind="class" language="C#" prot="public">
+    <compoundname>BankOpdracht::Bank</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_bank_opdracht_1_1_bank_1abeddbbefbd772fb3164b5e89f8794d9d" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BankOpdracht.Bank.naam</definition>
+        <argsstring></argsstring>
+        <name>naam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Joris/Documents/Visual Studio 2013/Projects/Prg3OpdrachtenStudent/BankOpdracht/Bank.cs" line="11" column="1" bodyfile="C:/Users/Joris/Documents/Visual Studio 2013/Projects/Prg3OpdrachtenStudent/BankOpdracht/Bank.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bank_opdracht_1_1_bank_1af0fddd21e8b04bc4a9e06a34f28f374e" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_bank_opdracht_1_1_rekening" kindref="compound">Rekening</ref> &gt;</type>
+        <definition>List&lt;Rekening&gt; BankOpdracht.Bank.rekeningen</definition>
+        <argsstring></argsstring>
+        <name>rekeningen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Joris/Documents/Visual Studio 2013/Projects/Prg3OpdrachtenStudent/BankOpdracht/Bank.cs" line="21" column="1" bodyfile="C:/Users/Joris/Documents/Visual Studio 2013/Projects/Prg3OpdrachtenStudent/BankOpdracht/Bank.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_bank_opdracht_1_1_bank_1a799e93dc64d4afa713ac8589be230c29" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string BankOpdracht.Bank.Naam</definition>
+        <argsstring></argsstring>
+        <name>Naam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Joris/Documents/Visual Studio 2013/Projects/Prg3OpdrachtenStudent/BankOpdracht/Bank.cs" line="13" column="1" bodyfile="C:/Users/Joris/Documents/Visual Studio 2013/Projects/Prg3OpdrachtenStudent/BankOpdracht/Bank.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_bank_opdracht_1_1_bank_1a4cebee6300792e89bd07e721cd156ead" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BankOpdracht.Bank.Bank</definition>
+        <argsstring>(string naam)</argsstring>
+        <name>Bank</name>
+        <param>
+          <type>string</type>
+          <declname>naam</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Joris/Documents/Visual Studio 2013/Projects/Prg3OpdrachtenStudent/BankOpdracht/Bank.cs" line="23" column="1" bodyfile="C:/Users/Joris/Documents/Visual Studio 2013/Projects/Prg3OpdrachtenStudent/BankOpdracht/Bank.cs" bodystart="23" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bank_opdracht_1_1_bank_1a7a8205e7186a2c5b8ad972312c784e71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int BankOpdracht.Bank.OpenRekening</definition>
+        <argsstring>(string voornaam, string achternaam, string huisnr, string postcode)</argsstring>
+        <name>OpenRekening</name>
+        <param>
+          <type>string</type>
+          <declname>voornaam</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>achternaam</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>huisnr</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>postcode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Joris/Documents/Visual Studio 2013/Projects/Prg3OpdrachtenStudent/BankOpdracht/Bank.cs" line="29" column="1" bodyfile="C:/Users/Joris/Documents/Visual Studio 2013/Projects/Prg3OpdrachtenStudent/BankOpdracht/Bank.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bank_opdracht_1_1_bank_1aef66a70db61abdc42e89874d168e718d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int BankOpdracht.Bank.OpenRekening</definition>
+        <argsstring>(string voornaam, string achternaam, string huisnr, string postcode, int startSaldo)</argsstring>
+        <name>OpenRekening</name>
+        <param>
+          <type>string</type>
+          <declname>voornaam</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>achternaam</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>huisnr</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>postcode</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>startSaldo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Joris/Documents/Visual Studio 2013/Projects/Prg3OpdrachtenStudent/BankOpdracht/Bank.cs" line="34" column="1" bodyfile="C:/Users/Joris/Documents/Visual Studio 2013/Projects/Prg3OpdrachtenStudent/BankOpdracht/Bank.cs" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bank_opdracht_1_1_bank_1a7441f808a77aab91370b8176f5eddea0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int BankOpdracht.Bank.OpenRekening</definition>
+        <argsstring>(string voornaam, string achternaam, string huisnr, string postcode, int startSaldo, int salaris)</argsstring>
+        <name>OpenRekening</name>
+        <param>
+          <type>string</type>
+          <declname>voornaam</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>achternaam</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>huisnr</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>postcode</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>startSaldo</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>salaris</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Joris/Documents/Visual Studio 2013/Projects/Prg3OpdrachtenStudent/BankOpdracht/Bank.cs" line="39" column="1" bodyfile="C:/Users/Joris/Documents/Visual Studio 2013/Projects/Prg3OpdrachtenStudent/BankOpdracht/Bank.cs" bodystart="39" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bank_opdracht_1_1_bank_1aa4506af66c7a858ed6fae1f469b0b664" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_bank_opdracht_1_1_rekening" kindref="compound">Rekening</ref></type>
+        <definition>Rekening BankOpdracht.Bank.ZoekRekening</definition>
+        <argsstring>(int rekeningNummer)</argsstring>
+        <name>ZoekRekening</name>
+        <param>
+          <type>int</type>
+          <declname>rekeningNummer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Joris/Documents/Visual Studio 2013/Projects/Prg3OpdrachtenStudent/BankOpdracht/Bank.cs" line="55" column="1" bodyfile="C:/Users/Joris/Documents/Visual Studio 2013/Projects/Prg3OpdrachtenStudent/BankOpdracht/Bank.cs" bodystart="55" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bank_opdracht_1_1_bank_1abfe6a8ac05cfdf0bb807d2fdece5c3dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_bank_opdracht_1_1_rekening" kindref="compound">Rekening</ref></type>
+        <definition>Rekening BankOpdracht.Bank.VerwijderRekening</definition>
+        <argsstring>(int rekeningNummer)</argsstring>
+        <name>VerwijderRekening</name>
+        <param>
+          <type>int</type>
+          <declname>rekeningNummer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Joris/Documents/Visual Studio 2013/Projects/Prg3OpdrachtenStudent/BankOpdracht/Bank.cs" line="67" column="1" bodyfile="C:/Users/Joris/Documents/Visual Studio 2013/Projects/Prg3OpdrachtenStudent/BankOpdracht/Bank.cs" bodystart="67" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bank_opdracht_1_1_bank_1a8cf8ee42f63486441fc146288e703d6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>decimal</type>
+        <definition>decimal BankOpdracht.Bank.RenteUitkeren</definition>
+        <argsstring>(decimal percentage)</argsstring>
+        <name>RenteUitkeren</name>
+        <param>
+          <type>decimal</type>
+          <declname>percentage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Joris/Documents/Visual Studio 2013/Projects/Prg3OpdrachtenStudent/BankOpdracht/Bank.cs" line="77" column="1" bodyfile="C:/Users/Joris/Documents/Visual Studio 2013/Projects/Prg3OpdrachtenStudent/BankOpdracht/Bank.cs" bodystart="77" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bank_opdracht_1_1_bank_1a1fac2ccc109fcfe3370ca25d82de26c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string BankOpdracht.Bank.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Joris/Documents/Visual Studio 2013/Projects/Prg3OpdrachtenStudent/BankOpdracht/Bank.cs" line="90" column="1" bodyfile="C:/Users/Joris/Documents/Visual Studio 2013/Projects/Prg3OpdrachtenStudent/BankOpdracht/Bank.cs" bodystart="90" bodyend="105"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Joris/Documents/Visual Studio 2013/Projects/Prg3OpdrachtenStudent/BankOpdracht/Bank.cs" line="10" column="1" bodyfile="C:/Users/Joris/Documents/Visual Studio 2013/Projects/Prg3OpdrachtenStudent/BankOpdracht/Bank.cs" bodystart="9" bodyend="106"/>
+    <listofallmembers>
+      <member refid="class_bank_opdracht_1_1_bank_1a4cebee6300792e89bd07e721cd156ead" prot="public" virt="non-virtual"><scope>BankOpdracht::Bank</scope><name>Bank</name></member>
+      <member refid="class_bank_opdracht_1_1_bank_1abeddbbefbd772fb3164b5e89f8794d9d" prot="private" virt="non-virtual"><scope>BankOpdracht::Bank</scope><name>naam</name></member>
+      <member refid="class_bank_opdracht_1_1_bank_1a799e93dc64d4afa713ac8589be230c29" prot="public" virt="non-virtual"><scope>BankOpdracht::Bank</scope><name>Naam</name></member>
+      <member refid="class_bank_opdracht_1_1_bank_1a7a8205e7186a2c5b8ad972312c784e71" prot="public" virt="non-virtual"><scope>BankOpdracht::Bank</scope><name>OpenRekening</name></member>
+      <member refid="class_bank_opdracht_1_1_bank_1aef66a70db61abdc42e89874d168e718d" prot="public" virt="non-virtual"><scope>BankOpdracht::Bank</scope><name>OpenRekening</name></member>
+      <member refid="class_bank_opdracht_1_1_bank_1a7441f808a77aab91370b8176f5eddea0" prot="public" virt="non-virtual"><scope>BankOpdracht::Bank</scope><name>OpenRekening</name></member>
+      <member refid="class_bank_opdracht_1_1_bank_1af0fddd21e8b04bc4a9e06a34f28f374e" prot="private" virt="non-virtual"><scope>BankOpdracht::Bank</scope><name>rekeningen</name></member>
+      <member refid="class_bank_opdracht_1_1_bank_1a8cf8ee42f63486441fc146288e703d6f" prot="public" virt="non-virtual"><scope>BankOpdracht::Bank</scope><name>RenteUitkeren</name></member>
+      <member refid="class_bank_opdracht_1_1_bank_1a1fac2ccc109fcfe3370ca25d82de26c5" prot="public" virt="non-virtual"><scope>BankOpdracht::Bank</scope><name>ToString</name></member>
+      <member refid="class_bank_opdracht_1_1_bank_1abfe6a8ac05cfdf0bb807d2fdece5c3dd" prot="public" virt="non-virtual"><scope>BankOpdracht::Bank</scope><name>VerwijderRekening</name></member>
+      <member refid="class_bank_opdracht_1_1_bank_1aa4506af66c7a858ed6fae1f469b0b664" prot="public" virt="non-virtual"><scope>BankOpdracht::Bank</scope><name>ZoekRekening</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="class_bank_opdracht_1_1_program" kind="class" language="C#" prot="public">
+    <compoundname>BankOpdracht::Program</compoundname>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_bank_opdracht_1_1_program_1af9670d37f627f93ed3b81256969b509f" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void BankOpdracht.Program.Main</definition>
+        <argsstring>(string[] args)</argsstring>
+        <name>Main</name>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Joris/Documents/Visual Studio 2013/Projects/Prg3OpdrachtenStudent/BankOpdracht/Program.cs" line="11" column="1" bodyfile="C:/Users/Joris/Documents/Visual Studio 2013/Projects/Prg3OpdrachtenStudent/BankOpdracht/Program.cs" bodystart="11" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Joris/Documents/Visual Studio 2013/Projects/Prg3OpdrachtenStudent/BankOpdracht/Program.cs" line="10" column="1" bodyfile="C:/Users/Joris/Documents/Visual Studio 2013/Projects/Prg3OpdrachtenStudent/BankOpdracht/Program.cs" bodystart="9" bodyend="59"/>
+    <listofallmembers>
+      <member refid="class_bank_opdracht_1_1_program_1af9670d37f627f93ed3b81256969b509f" prot="private" virt="non-virtual"><scope>BankOpdracht::Program</scope><name>Main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
